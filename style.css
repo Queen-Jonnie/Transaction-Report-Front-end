@@ -1,0 +1,106 @@
+.navbar{
+    width: 1265px;
+    height: 40px;
+    margin: auto;
+    background-color:#020D1E;
+}
+
+/* .icon{
+    width: 200px;
+    float: left;
+    height: 400px;
+} */
+
+.logo{
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+    padding-left: 10px;
+    float: left;
+    padding-top: 8px;
+    margin-top: 2px
+}
+
+.menu{
+    width: 400px;
+    float: right;
+    height: 70px;
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: -12px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #00E4AF;
+    font-family: serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+h3{
+    color: #020D1E;
+}
+
+p{
+    margin-top: -14px;
+    color:black;
+}
+
+p2{
+    float: right;
+    justify-content: right;
+    align-items: right;
+    margin-left: 950px;
+    margin-bottom: 10px;
+    margin-top: -100px;
+    line-height: 20px;
+}
+
+p3{
+    color: black;
+    font-weight:bold;
+    text-align: justify;
+}
+
+table{
+    border-collapse:collapse ;
+}
+
+table th {
+    text-align:left;
+    background-color: #86f8c8;
+    color: black;
+    font-style: bold;
+    padding: 4px 100px 4px 8px;
+}
+
+table td{
+    padding: 4px 8px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
